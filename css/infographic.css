@@ -40,3 +40,15 @@
 .info-box:nth-of-type(2n) {
   background-color: var(--color-infobox-2-bg);
 }
+
+.jump {
+  transform: scale(1.1);
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+.big {
+  transform: scale(1.2);
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
