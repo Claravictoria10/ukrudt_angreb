@@ -1,6 +1,6 @@
 :root {
   /* Colours */
-  --color-bg: #f5ecbf; /* page background /*
+  --color-bg: #f7eebe; /* page background /*
 
   /* Header */
   --color-head-bg: #536733;
@@ -22,7 +22,7 @@
   /* Headlines og rubrik */
   --font-h1-size: 3rem;
   --font-sub1-size: 3rem;
-  --font-h2-size: 2.25rem;
+  --font-h2-size: 20px;
   --font-h3-size: 2rem;
   --color-headline-bg: #000000;
   --color-headline-text-page: #fffae2;
@@ -67,16 +67,16 @@
 
   /* Text sizes */
   --logotype-size: 3rem;
-  --headline1-size: 1.25rem;
-  --headline2-size: 1.25rem;
-  --headline3-size: 1.25rem;
-  --bodytext-size: 1.25rem;
-  --cta-text-size: 1.25rem;
-  --followup-text-size: 1.25rem;
-  --form-submit-size: 1.25rem;
+  --headline1-size: 1rem;
+  --headline2-size: 30px;
+  --headline3-size: 1rem;
+  --bodytext-size: 1rem;
+  --cta-text-size: 1rem;
+  --followup-text-size: 20px;
+  --form-submit-size: 20px;
 
   /* Infographics */
   --color-info-bg: #fffae2;
-  --color-infobox-1-bg: #c8daac;
+  --color-infobox-1-bg: #bccaa6;
   --color-infobox-2-bg: #809d52;
 }
