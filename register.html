@@ -37,39 +37,86 @@
       <h1>INDBERET</h1>
       <div class="container">
         <div class="form-box">
-          <form>
-            <label for="navn">Navn:</label>
-            <input type="text" id="navn" />
-            <p class="error-besked">Pleace inter a value</p>
-
-            <label for="efternavn">Efternavn:</label>
-            <input type="text" id="efternavn" placeholder="" />
-            <p class="error-besked">Pleace inter a value</p>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" />
-            <p class="error-besked">Pleace inter a value</p>
-
-            <label for="område">Område:</label>
-            <input type="text" id="område" />
-            <p class="error-besked">Pleace inter a value</p>
-
-            <label for="kl">Kl:</label>
-            <input type="time" id="kl" />
-            <p class="error-besked">Pleace inter a value</p>
-
-            <label>Evt. uddybelse af hvad du har set</label>
-            <textarea></textarea>
-
-            <label>Hvad blev trukket ned i jorden?</label>
-            <textarea></textarea>
-
-            <div class="checkbox-row">
-              <input type="checkbox" id="nyhedsbrev" />
-              <label for="nyhedsbrev">Tilmeld nyhedsbrev</label>
+          <form aria-label="info">
+            <div class="form-group">
+              <label for="first_name">Navn</label>
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                aria-describedby="fname-error"
+                required
+              />
+              <p class="error-message" id="fname-error">
+                Skriv venligst dit navn
+              </p>
             </div>
 
-            <button type="submit" class="send-btn">send</button>
+            <div class="form-group">
+              <label for="last_name">Efternavn</label>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                aria-describedby="lname-error"
+                required
+              />
+              <p class="error-message" id="lname-error">
+                skriv venligst dit efternavn
+              </p>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                aria-describedby="email-error"
+                required
+              />
+              <p class="error-message" id="email-error">
+                skriv venligst din email
+              </p>
+            </div>
+
+            <div class="form-group">
+              <label for="time">Hvad var klokken da ulykken skete</label>
+              <input
+                type="time"
+                id="time"
+                name="time"
+                aria-describedby="email-error"
+                required
+              />
+              <p class="error-message" id="email-error">
+                skriv venligst klokken
+              </p>
+            </div>
+
+            <div class="form-group">
+              <label for="text"
+                >Har du mere information om ulykken, skriv venligt her:</label
+              >
+              <textarea id="text" name="text"></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input
+                type="checkbox"
+                id="accept_terms"
+                name="accept_terms"
+                value="yes"
+                aria-describedby="terms-error"
+                required
+              />
+              <p class="error-message" id="terms-error">
+                Sæt venligst kryds i boksen
+              </p>
+              <label for="accept_terms">Accept terms</label>
+            </div>
+
+            <button>indbret</button>
           </form>
         </div>
 
@@ -85,8 +132,10 @@
           <br />
           <p>
             Dine oplysninger bliver i vores system i 2 måneder, hvor efter det
-            slettes, såmænd du ikke ønsker at modtage opdateringer på mail,
-            omkring det farlige ukrudts udbredelse.
+            slettes. Vi beholder yderligere dine informationer, hvis sagen ikke
+            er lukket inde for 2 måneder, her vil du modtage en mail, om
+            hvorvidt vi må beholde dine oplysninger, hvis du her siger nej,
+            slettes din sag også.
           </p>
         </div>
       </div>
@@ -118,6 +167,6 @@
       </nav>
     </footer>
     <script src="js/burger.js"></script>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/register.js"></script>
   </body>
 </html>
