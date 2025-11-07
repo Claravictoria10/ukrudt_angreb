@@ -1,9 +1,9 @@
 :root {
   /* Colours */
-  --color-bg: #fceb94; /* page background /*
+  --color-bg: #f5ecbf; /* page background /*
 
   /* Header */
-  --color-head-bg: #ff4b00;
+  --color-head-bg: #536733;
 
   /* Logotype */
   --color-logotype-bg: #000000;
@@ -50,12 +50,12 @@
 
   /* Cards */
   --color-card-bg: #ffffff;
-  --color-cta-card-bg: #ff4b00;
+  --color-cta-card-bg: #536733;
 
   /* news-cards */
   --color-news-bg: #fffae2;
   --color-news-bg-inverted: #dbe2f5;
-  --color-cta-newscard-bg: #ffa680;
+  --color-cta-newscard-bg: #809d52;
   --color-cta-newscard-bg-inverted: #6f90eb;
 
   /* Fonts */
@@ -77,6 +77,6 @@
 
   /* Infographics */
   --color-info-bg: #fffae2;
-  --color-infobox-1-bg: #fceb94;
-  --color-infobox-2-bg: #def5db;
+  --color-infobox-1-bg: #c8daac;
+  --color-infobox-2-bg: #809d52;
 }
