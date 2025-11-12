@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -18,7 +19,9 @@
     <header>
       <nav>
         <div id="logotype-wrapper" class="logo">
-          <a href="index.html"> LOGO-TYPE </a>
+          <a href="index.html">
+            <img class="fu_logo" src="SVG/logo1.svg" alt="Logo" />
+          </a>
         </div>
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
@@ -33,56 +36,77 @@
     </header>
     <section id="main-disclamer">
       <div id="main-disclamer-content">
-        <img src="warning" alt="ICON" />
+        <img src="pics/varsel.webp" alt="ICON" />
         <div>
-          <h1>OVERSKRIFT</h1>
-          <p class="sub">Underrubrik</p>
+          <h1>Warning</h1>
+          <p class="sub">Guidelines.</p>
         </div>
       </div>
     </section>
     <main>
       <section id="daily">
         <article class="daily_card">
-          <img src="" alt="teaser_img" />
+          <img src="pics/teaser_1.webp" alt="billede" />
           <div class="daily_text">
-            <h2>Teaser</h2>
+            <h2>Nærkontakt</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              magnam ducimus ea, sed minima asperiores.
+              I nærkontakt med farlig ukrudt, her er 3 vigtige ting du kan gøre.
+              <br />
+              <br />
+              Du kan også indberette en ulykke hvis du har set noget du mener
+              skal undersøges nærmere.
             </p>
-            <a href="" class="cta_btn">Se mere</a>
+
+            <a href="instruction.html" class="cta_btn">Se mere</a>
           </div>
         </article>
         <article class="daily_card">
-          <img src="" alt="teaser_img" />
+          <img src="pics/teaser_2.webp" alt="teaser_img" />
           <div class="daily_text">
-            <h2>Teaser</h2>
+            <h2>Har du set noget mærkelig?</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              magnam ducimus ea, sed minima asperiores.
+              Hvis du har set noget mærkeligt, kan du sende en indberetning, og
+              så kigger vi på det!
             </p>
-            <a href="" class="cta_btn">Se mere</a>
+            <a href="register.html" class="cta_btn">Se mere</a>
           </div>
         </article>
       </section>
       <section id="breaking">
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>
+            “Jeg kunne mærke jorden trække mig ned” kvinde undslipper
+            ukrudtsangreb.
+          </h3>
+          <p></p>
+          <img src="pics/artikel_2.webp" alt="news_img" />
+          <button popovertarget="text_1" class="cta_btn" href="">
+            Læs mere
+          </button>
         </article>
+
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Fra miljøprojekt til mareridt!</h3>
+          <p>
+            Er det naturen, der slår igen eller mennesket, der endelig får sin
+            straf?
+          </p>
+          <img src="pics/artikel_1.webp" alt="news_img" />
+          <button popovertarget="text_2" class="cta_btn" href="">
+            Læs mere
+          </button>
         </article>
+
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Bil slugt af jorden: Vidner så rødder trække køretøj ned!</h3>
+          <img src="pics/artikel_3.webp" alt="news_img" />
+          <p>
+            To personer slap med livet i behold, da deres bil pludselig blev
+            fanget af hurtigtvoksende rødder på en landevej i Texas.
+          </p>
+          <button popovertarget="text_3" class="cta_btn" href="">
+            Læs mere
+          </button>
         </article>
       </section>
     </main>
@@ -117,3 +141,153 @@
     <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
+
+<!--Artikel nr 1 - til billede nr 2-->
+<article popover id="text_1" class="pop">
+  <h2>
+    <strong
+      >“Jeg kunne mærke jorden trække mig ned” kvinde undslipper
+      ukrudtsangreb.</strong
+    >
+  </h2>
+  <br />
+  <img class="pic" src="pics/artikel_2.webp" alt="hus" />
+  <br />
+  <p>
+    En 34-årig kvinde fra Paris slap med nød og næppe væk, da jorden under hende
+    pludselig begyndte at bevæge sig. Eksperter kalder hændelsen et tegn på, at
+    ukrudtets rødder nu når beboede områder. En helt almindelig dag, indtil
+    jorden åbnede sig.
+  </p>
+  <br />
+  <p>
+    Det, der begyndte som en stille eftermiddagstur i haven, endte som et
+    mareridt for Sarah Whitman, 34, fra Paris, Frankrig. Hun fortæller, at hun
+    stod og plantede blomster, da jorden under hende pludselig begyndte at give
+    efter.
+  </p>
+  <br />
+  <p>
+    “Jeg troede først, det var et jordskælv,” siger hun. “Men så mærkede jeg
+    noget vikle sig om mit ben. Det føltes levende.”
+  </p>
+  <br />
+  <p>
+    Inden hun nåede at reagere, var hun trukket næsten til knæene ned i jorden.
+    Rødder med liv og styrke. Redningsmandskabet ankom få minutter senere og
+    kunne trække hende fri.
+  </p>
+  <br />
+  <p>
+    Ifølge vidner snoede tykke rødder sig op fra jorden som slanger, mens de
+    forsøgte at få fat i flere personer.
+  </p>
+  <p>“Rødderne reagerede på bevægelse,” siger brandmand Mark Halley.</p>
+  <br />
+  <p>
+    Sarah slap fysisk uskadt, men hendes have og hus er nu totalt ødelagt.
+    Forskere advarer: Ingen steder er længere sikre. Eksperter fra Global Root
+    Containment Agency (GRCA) advarer om, at hændelsen i Frankrig bekræfter, at
+    ukrudtets rødder nu har spredt sig under beboede områder.
+  </p>
+  <br />
+  <p>
+    Myndighederne opfordrer alle borgere til at undgå direkte kontakt med jord,
+    og til at søge mod sikre, asfalterede områder, hvis de mærker rystelser
+    eller ser bevægelse i jorden.
+  </p>
+</article>
+
+<!--Artikel nr 2 - til billede nr 1-->
+<article popover id="text_2" class="pop">
+  <h2><strong>Fra miljøprojekt til mareridt.</strong></h2>
+  <br />
+  <img class="pic" src="pics/artikel_1.webp" alt="pige" />
+  <br />
+  <p>
+    Det startede som et grønt håb. I et laboratorium i USA udviklede forskere en
+    superplante, der kunne rense forurenet jord og optage CO₂ hurtigere end
+    noget andet. Men projektet “R5 Root Strain” blev stjålet og på få dage
+    begyndte uforklarlige hændelser at sprede sig verden over.
+  </p>
+  <br />
+  <p>
+    Biler, busser og huse forsvinder nu sporløst, trukket ned i jorden af
+    eksplosivt voksende rødder. Øjenvidner beskriver rødder, der bevæger sig som
+    levende væsner under jordoverfladen.
+  </p>
+  <br />
+  <p><strong>Forskere i chok: “Rødderne stopper ikke”</strong></p>
+  <p>
+    Ifølge forskningsleder Dr. Amanda Reyes reagerer planterne på bevægelse og
+    varme, som om de har en form for instinkt. Forsøg på at brænde eller sprøjte
+    dem væk har kun fået væksten til at accelerere.
+  </p>
+  <br />
+  <p>
+    “Vi har skabt noget, vi ikke kan kontrollere,” siger Reyes. “Rødderne vokser
+    i alt, metal, beton, selv glas.”
+  </p>
+  <br />
+  <p><strong>Myndighederne advarer befolkningen.</strong></p>
+  <p>
+    Regeringer over hele verden kæmper for at bremse spredningen. I Danmark er
+    mindre byer begyndt at melde om rødder, der bryder gennem asfalt og kældre.
+    Myndighederne opfordrer nu borgerne til at undgå kontakt med jorden i
+    berørte områder og holde sig væk fra truede bygninger.
+  </p>
+  <br />
+  <p>
+    Mens frygten breder sig, står ét spørgsmål tilbage: Er det naturen, der slår
+    igen eller mennesket, der endelig får sin straf?
+  </p>
+</article>
+<!--Artikel nr 3 - til billede nr 3-->
+<article popover id="text_3" class="pop">
+  <h2>
+    <strong>Bil slugt af jorden: Vidner så rødder trække køretøj ned!</strong>
+  </h2>
+  <br />
+  <img class="pic" src="pics/artikel_3.webp" alt="bil" />
+  <br />
+  <p>
+    To personer slap med livet i behold, da deres bil pludselig blev fanget af
+    hurtigtvoksende rødder på en landevej i Texas.
+  </p>
+  <br />
+  <p><strong>Et dramatisk øjeblik midt på åben vej.</strong></p>
+  <p>
+    Hvad der begyndte som en rolig køretur, endte i panik, da en rusten sedan
+    pludselig blev fanget af bevægende rødder på en landevej uden for byen
+    Amarillo. Vidner fortæller, at jorden begyndte at ryste, før tykke, grønne
+    rødder snoede sig op omkring bilens hjul og front.
+  </p>
+  <br />
+  <p>
+    “Det føltes som om bilen blev trukket ned i jorden,” fortæller føreren Megan
+    Cole, 29.
+  </p>
+  <br />
+  <p>
+    “Vi kunne mærke, hvordan rødderne rykkede under os, motoren døde, og vi sad
+    bare fast.”
+  </p>
+  <br />
+  <p><strong>Redningsfolk kæmpede mod naturen.</strong></p>
+  <p>
+    Lokale beredskabsstyrker nåede frem efter få minutter, men beskriver
+    hændelsen som “ekstremt vanskelig”. Da de forsøgte at trække bilen fri,
+    begyndte rødderne at vokse hurtigere og stramme grebet.
+  </p>
+  <p>“Vi kunne høre metallet knage,” siger brandchef Ronald Hayes.</p>
+  <br />
+  <p>
+    “Det var som om planterne reagerede på vores bevægelse. Vi måtte skære
+    rødderne over for at få parret fri.”
+  </p>
+  <br />
+  <p>
+    Begge passagerer slap uden alvorlige skader, men bilen blev næsten
+    fuldstændig opslugt af jorden.
+  </p>
+</article>
