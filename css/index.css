@@ -34,10 +34,10 @@ article[popover]::backdrop {
   display: block;
 }
 
-button {
-  border: none;
-}
-
 .fu_logo {
   max-width: 30%;
+}
+
+.cta_btn {
+  border: none;
 }
