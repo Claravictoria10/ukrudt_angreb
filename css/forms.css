@@ -23,7 +23,7 @@ img {
 /* Form og info styling */
 .form-box,
 .info-box {
-  background-color: #fdfbef;
+  background-color: var(--color-news-bg);
   padding: 25px;
   border-radius: 15px;
   width: 500px;
@@ -40,14 +40,14 @@ input {
   border-radius: 9px;
   border: 1px solid #333;
   padding: 5px;
-  background-color: #fffae2;
+  background-color: var(--color-input);
   width: 300px;
 }
 /*Send knap design*/
-button {
+#knap {
   width: 125px;
   padding: 5px;
-  background: #809d52;
+  background: var(--color-head-bg);
   border: 1px solid #000;
   font-size: 20px;
   cursor: pointer;
@@ -111,7 +111,7 @@ textarea {
   border-radius: 9px;
   border: 1px solid #333;
   padding: 5px;
-  background-color: #fffae2;
+  background-color: var(--color-input);
   width: 400px;
 }
 
